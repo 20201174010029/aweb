@@ -77,6 +77,15 @@ nav ul li a:hover {
 .curiosity-card img {
     max-width: 100%;
     height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+header img:hover {
+    transform: scale(1.1); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+    }
+        
 }
 
 section {
