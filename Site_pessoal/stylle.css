@@ -1,19 +1,16 @@
-/* Reset de estilos para garantir consistência em diferentes navegadores */
 body, h1, h2, p, ul, ol, li, table, th, td {
     margin: 0;
     padding: 0;
 }
 
-/* Define uma fonte padrão para a página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #007bff;
+    color: white;
 }
 
-/* Estiliza o cabeçalho */
 header {
-    background-color: #007bff;
+    background-color: #0056b3;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -23,6 +20,7 @@ header {
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 header p {
@@ -30,7 +28,6 @@ header p {
     font-style: italic;
 }
 
-/* Estiliza a imagem do herói */
 img {
     display: block;
     margin: 0 auto;
@@ -40,13 +37,13 @@ img {
     border: 5px solid white;
 }
 
-/* Estiliza a navegação */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #0056b3;
     padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav li {
@@ -64,22 +61,19 @@ nav a:hover {
     color: #ffcc00;
 }
 
-/* Estiliza as seções */
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Estiliza os títulos das seções */
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-/* Estiliza a tabela de educação */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -95,19 +89,17 @@ th, td {
     text-align: left;
 }
 
-/* Estiliza o link de contato */
 #contato a {
-    color: #007bff;
+    color: #ffcc00;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 #contato a:hover {
-    color: #ffcc00;
+    color: white;
 }
 
-/* Estiliza os cards de curiosidades */
 #curiosidades ol {
     display: flex;
     flex-wrap: wrap;
@@ -118,9 +110,10 @@ th, td {
 #curiosidades li {
     width: calc(33.33% - 10px);
     margin-bottom: 10px;
-    background-color: #fff;
-    padding: 10px;
+    background-color: white;
+    padding: 20px;
     border: 1px solid #ddd;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
     
