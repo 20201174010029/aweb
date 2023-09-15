@@ -1,0 +1,71 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do header */
+header {
+    background-color: #048ABF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos do hero */
+#hero {
+    text-align: center;
+    padding: 20px;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos dos cards de curiosidades */
+.card {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #048ABF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    width: 15%;
+}
