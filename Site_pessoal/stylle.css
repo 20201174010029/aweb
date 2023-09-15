@@ -1,5 +1,5 @@
-/* Reset de estilos para garantir uma base consistente */
-body, h1, h2, p, ul, li {
+
+body, h1, h2, p, ul, li, table, th, td {
     margin: 0;
     padding: 0;
 }
