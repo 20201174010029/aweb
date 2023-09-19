@@ -12,7 +12,7 @@ body {
 }
 
 button, input, textarea, select {
-    font-family: 'Roboto, sans-serif';
+    font-family: 'Roboto', sans-serif;
     border: none;
     cursor: pointer;
 }
@@ -192,11 +192,7 @@ button{
     align-items: center;
     justify-content: space-between;
     margin-right: 10px;
-}
-
-.foto-c{
-    padding: 100px 0 0 45px;
-    width: 60px;
+    width: 103%;
 }
 
 #nav-posts {
