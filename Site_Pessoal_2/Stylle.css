@@ -6,8 +6,10 @@ body {
 header {
   background-color: #419CA6;
   color: #fff;
-  padding: 15px;
+  padding: 20px;
   text-align: justify;
+  position: relative;
+  width: 100%;
 }
 
 
@@ -38,43 +40,30 @@ nav a {
   display: inline-flex;
   background-color: #51868C;
   border: 2px solid #818C8C;
-  border-radius: 25px;
+  border-radius: 15px;
   margin: 10px;
   padding: 5px;
   text-align: center;
   
 }
 
-
 .card img {
-  max-width: 100%;
-  height: auto;
+  max-width: 80%;
+  height: 80%;
 }
 footer {
   background-color: #419CA6;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 40px;
 }
 
-img {
-  width: 15%;
-}
-
-.tamanho{
-  width: 15%;
-}
-
-.tamanhoe{
-  width: 80%;
-  height: 70%;
-}
 h2 {
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #818C8C;
   color: #fff;
   font-weight: bold;
-  padding: 10px;
+  padding: 20px;
   text-align: left;
 }
 table {
@@ -84,7 +73,7 @@ table {
 }
 
 th {
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #818C8C;
   color: #fff;
   font-weight: bold;
@@ -101,15 +90,15 @@ tr:nth-child(odd) {
 }
 
 td {
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 8px;
   text-align: left;
 }
 tr:hover {
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #CCC;
 }
-.Logo > img {
+.Ajuste{
   border-radius: 50%;
   width: 5%;
 }
@@ -149,7 +138,12 @@ tr:hover {
 .curiosidade{
   display: flex;
   justify-content: center;
-  border-radius: 25px;
+  border-radius: 15px;
   width: 1400px;
   height: 200px;
+}
+
+.c{
+  display:flex;
+  flex-direction: column;
 }

@@ -11,6 +11,8 @@ body {
 }
 
 header {
+    position: relative;
+    width: 100%;
     background-color: #3D5A80;
     color: white;
     text-align: center;
@@ -45,6 +47,7 @@ nav a {
 }
 
 .hero h2 {
+    color: #F2F2F2;
     font-size: 24px;
 }
 
@@ -58,7 +61,7 @@ nav a {
     color: #0B0D0C;
     padding: 20px;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
 }
