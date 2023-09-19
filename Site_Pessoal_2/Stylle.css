@@ -6,13 +6,10 @@ body {
 header {
   background-color: #419CA6;
   color: #fff;
-  padding: 10px;
-  text-align: center;
+  padding: 15px;
+  text-align: justify;
 }
 
-header h1 {
-  margin: 0;
-}
 
 nav ul {
   list-style: none;
@@ -39,12 +36,13 @@ nav a {
 }
 .card {
   background-color: #51868C;
-  border: 1px solid #818C8C;
-  border-radius: 5px;
+  border: 2px solid #818C8C;
+  border-radius: 25px;
   margin: 10px;
   padding: 10px;
   text-align: center;
 }
+
 
 .card img {
   max-width: 100%;
@@ -60,7 +58,17 @@ footer {
 img {
   width: 15%;
 }
+
+.tamanho{
+  width: 25%;
+}
+
+.tamanhoe{
+  width: 80%;
+  height: 70%;
+}
 h2 {
+  border-radius: 25px;
   background-color: #818C8C;
   color: #fff;
   font-weight: bold;
@@ -74,6 +82,7 @@ table {
 }
 
 th {
+  border-radius: 25px;
   background-color: #818C8C;
   color: #fff;
   font-weight: bold;
@@ -90,10 +99,12 @@ tr:nth-child(odd) {
 }
 
 td {
+  border-radius: 25px;
   padding: 8px;
   text-align: left;
 }
 tr:hover {
+  border-radius: 25px;
   background-color: #CCC;
 }
 .Logo > img {
@@ -117,7 +128,6 @@ tr:hover {
   content: "\2022";
   margin-right: 8px;
   font-size: 16px;
-  color: #419CA6;
   font-weight: bold;
 }
 
@@ -126,10 +136,18 @@ tr:hover {
 }
 
 .imagem {
-  filter: contrast(110%) brightness(105%) saturate(105%);
+  filter: contrast(90%) brightness(100%) saturate(80%);
   transition: filter 0.3s ease;
 }
 
 .imagem:hover {
   filter: none;
+}
+
+.curiosidade{
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  width: 60%;
+  height: 40%;
 }
