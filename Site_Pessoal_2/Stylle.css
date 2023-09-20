@@ -13,6 +13,22 @@ header {
 }
 
 
+.menu-item {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+  text-align: center;
+  width: 50%;
+  border: solid 1px black;
+}
+
+
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -101,6 +117,20 @@ tr:hover {
 .Ajuste{
   border-radius: 50%;
   width: 5%;
+}
+
+.content {
+  background-color: #F2F2F2; 
+  color: #0B0D0C;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s ease;
+}
+
+li > a {
+  color: black;
 }
 
 #skills ul {
