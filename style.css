@@ -4,24 +4,24 @@ body {
 }
 
 .bimestre {
-    width: 400px;
-    height: 200px;
-    margin: 10px;
-    padding: 2px 10px;
+    width: 425px;
+    height: 220px;
+    margin: 15px;
+    padding: 10px 20px;
 }
 
 .bimImpar {
-    background-color: rgb(255, 255, 255);
+    background-color: lightgreen;
 }
 
 .bimPar {
-    background-color: rgb(0, 0, 0);
+    background-color: lightsalmon;
 }
 
 .logo {
     width: 40px;
     float: left;
-    padding-right: 20px;
+    padding-right: 25px;
     margin-left: 15px;
 }
 
@@ -49,7 +49,6 @@ a:hover {
 
 h1 {
     font-size: 30px;
-    color: white;
 }
 
 .topo {
