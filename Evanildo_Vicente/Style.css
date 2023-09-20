@@ -16,7 +16,7 @@ header {
     background-color: #3D5A80;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     transition: background-color 0.3s ease;
 }
 
@@ -90,7 +90,7 @@ footer {
     background-color: #3D5A80;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 @media (max-width: 768px) {
