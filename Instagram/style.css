@@ -46,7 +46,6 @@ h1 {
 
 
 .btn{
-    
     height: 30px;
     width: 45%;
     background-color: white;
@@ -56,12 +55,8 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-    font-weight: bold;
-    
- 
+    font-weight: bold;  
 }
-
-
 
 button {
     width: 27px;
@@ -155,7 +150,8 @@ figure{
 
 .sub{
     padding-left: 20px;
-    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 3px white;
 }
 
 .tabs{
@@ -193,6 +189,7 @@ button{
     justify-content: space-between;
     margin-right: 10px;
     width: 103%;
+    border: solid 1px orange;
 }
 
 #nav-posts {
@@ -203,7 +200,6 @@ button{
     width: 100vw; 
     background-color: white;
 }
-
 .imagem-P{
     width: 30px;
     border-radius: 50%;
